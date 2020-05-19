@@ -1,6 +1,8 @@
 [![](https://images.microbadger.com/badges/image/unicon/shibboleth-idp.svg)](https://microbadger.com/images/unicon/shibboleth-idp "docker image badge")
 
 # Major Change
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frobellegate%2Fshibboleth-idp-dockerized.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Frobellegate%2Fshibboleth-idp-dockerized?ref=badge_shield)
+
 As of 10 Jan 2019 (v3.4.3), the build mechanism for this image has changed from the historical method to using multi-stage builds, which has several advantages for the image maintainers. This change should NOT impact image users, but please test and validate your deployment before pushing the new image directly into production. If you do find issues, please submit them at https://github.com/Unicon/shibboleth-idp-dockerized/issues.
 
 ## Overview
@@ -210,3 +212,6 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frobellegate%2Fshibboleth-idp-dockerized.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Frobellegate%2Fshibboleth-idp-dockerized?ref=badge_large)
